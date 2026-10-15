@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de tecnologia</title>
+  <desc id="desc">Uma tela de código com símbolos de programação, estrelas e formas geométricas abstratas.</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#192d45"/>
+      <stop offset="1" stop-color="#101b2d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#83e4cf"/>
+      <stop offset="1" stop-color="#a6a0ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="260" r="214" fill="#e4f3ef"/>
+  <circle cx="260" cy="260" r="174" fill="#d4e8e7"/>
+  <path d="M80 156l8 18 18 8-18 8-8 18-8-18-18-8 18-8z" fill="#a79df8"/>
+  <path d="M421 315l6 13 13 6-13 6-6 13-6-13-13-6 13-6z" fill="#7bd9c7"/>
+  <circle cx="400" cy="119" r="8" fill="#f3b86a"/>
+  <circle cx="119" cy="360" r="6" fill="#f3b86a"/>
+  <g transform="rotate(-5 260 252)">
+    <rect x="111" y="133" width="298" height="231" rx="23" fill="#a1aaa9" opacity=".25"/>
+    <rect x="104" y="124" width="298" height="231" rx="23" fill="url(#screen)"/>
+    <path d="M104 147a23 23 0 0 1 23-23h252a23 23 0 0 1 23 23v24H104z" fill="#263b55"/>
+    <circle cx="129" cy="147" r="5" fill="#ff8e91"/>
+    <circle cx="147" cy="147" r="5" fill="#f3bd72"/>
+    <circle cx="165" cy="147" r="5" fill="#7ed9c2"/>
+    <rect x="129" y="192" width="40" height="7" rx="3.5" fill="#a69dfb"/>
+    <rect x="177" y="192" width="79" height="7" rx="3.5" fill="#7cddc9"/>
+    <rect x="139" y="211" width="94" height="7" rx="3.5" fill="#eff4fa" opacity=".88"/>
+    <rect x="242" y="211" width="56" height="7" rx="3.5" fill="#f3bd72"/>
+    <rect x="129" y="230" width="65" height="7" rx="3.5" fill="#7cddc9"/>
+    <rect x="202" y="230" width="115" height="7" rx="3.5" fill="#eff4fa" opacity=".76"/>
+    <rect x="139" y="249" width="44" height="7" rx="3.5" fill="#a69dfb"/>
+    <rect x="191" y="249" width="89" height="7" rx="3.5" fill="#eff4fa" opacity=".76"/>
+    <rect x="129" y="268" width="87" height="7" rx="3.5" fill="#f3bd72"/>
+    <rect x="224" y="268" width="61" height="7" rx="3.5" fill="#7cddc9"/>
+    <rect x="139" y="287" width="63" height="7" rx="3.5" fill="#eff4fa" opacity=".76"/>
+    <rect x="210" y="287" width="94" height="7" rx="3.5" fill="#a69dfb"/>
+    <path d="M245 326h64" stroke="#7cddc9" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(316 315) rotate(8)">
+    <rect x="0" y="0" width="104" height="82" rx="17" fill="url(#accent)"/>
+    <path d="M37 25L22 41l15 16M67 25l15 16-15 16M59 19L46 63" fill="none" stroke="#172b41" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M116 432c39-17 72-17 101 0" stroke="#b4c6e8" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M314 95c18-10 36-10 54 0" stroke="#b4c6e8" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>
