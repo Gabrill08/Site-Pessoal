@@ -673,3 +673,128 @@ section h3 {
         animation-duration: 0.01ms !important;
     }
 }
+
+/* Etapa 3: layout Mobile First e adaptações para telas maiores. */
+@media (min-width: 600px) {
+    .section-space {
+        padding-block: 5.5rem;
+    }
+
+    .navbar {
+        gap: 1rem;
+    }
+
+    .nav-links {
+        gap: 0.35rem 1.25rem;
+    }
+
+    .quick-facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .education-card {
+        padding: 1.7rem;
+    }
+
+    .contact-form {
+        padding: 1.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.2rem;
+    }
+
+    .brand-name {
+        font-size: 1rem;
+    }
+
+    .nav-links {
+        justify-content: flex-end;
+        gap: 0.35rem 1rem;
+    }
+
+    .nav-links a {
+        font-size: 0.84rem;
+    }
+
+    .hero-grid {
+        grid-template-columns: minmax(0, 1.15fr) minmax(240px, 0.85fr);
+        gap: 1.5rem;
+    }
+
+    .hero-art-wrap {
+        width: 100%;
+        max-width: 390px;
+    }
+
+    .section-heading {
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .section-intro {
+        max-width: 340px;
+        margin: 0 0 0.25rem;
+        color: var(--ink-soft);
+        font-size: 0.95rem;
+    }
+
+    .skills-layout {
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+        gap: 3rem;
+    }
+
+    .contact-layout {
+        grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+        align-items: start;
+        gap: 3rem;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 900px) {
+    .hero-grid {
+        gap: 3rem;
+    }
+
+    .project-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .quick-facts {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-space {
+        padding-block: 6.5rem;
+    }
+
+    .hero-grid {
+        gap: 4rem;
+    }
+
+    .hero-art-wrap {
+        max-width: 440px;
+    }
+
+    .project-card {
+        padding: 1.65rem;
+    }
+}

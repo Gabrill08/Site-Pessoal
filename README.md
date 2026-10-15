@@ -7,10 +7,11 @@ Desenvolver incrementalmente um site pessoal com HTML, CSS e layout responsivo, 
 Abra o arquivo `index.html` no navegador. O site não utiliza frameworks nem JavaScript.
 
 ## Publicação no GitHub Pages
-1. Crie um repositório no GitHub e envie os arquivos deste projeto.
-2. Acesse **Settings → Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**, escolha a branch `main` e a pasta `/ (root)`, e salve.
-4. Depois que o GitHub Pages publicar o projeto, copie a URL exibida nessa tela e coloque-a abaixo.
+1. Crie no GitHub um repositório vazio chamado `site-pessoal` (sem gerar README ou outros arquivos iniciais).
+2. No Terminal, entre na pasta descompactada do projeto e execute `git remote add origin https://github.com/SEU-USUARIO/site-pessoal.git` e depois `git push -u origin main`. Troque `SEU-USUARIO` pelo seu usuário. Isso preserva os três commits do histórico incremental.
+3. Acesse **Settings → Pages**.
+4. Em **Build and deployment**, selecione **Deploy from a branch**, escolha a branch `main` e a pasta `/ (root)`, e salve.
+5. Depois que o GitHub Pages publicar o projeto, copie a URL exibida nessa tela e coloque-a abaixo.
 
 **Site publicado:** `INSIRA_AQUI_O_LINK_DO_GITHUB_PAGES`
 
